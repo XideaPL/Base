@@ -1,0 +1,29 @@
+{
+    "name": "xideapl/base",
+    "type": "library",
+    "description": "Xidea Base Component",
+    "keywords": [],
+    "homepage": "http://xidea.pl",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Artur Pszczółka",
+            "email": "artur.pszczolka@xidea.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-0": { "Xidea\\Component\\Base": "" }
+    },
+    "target-dir": "Xidea/Component/Base",
+    "minimum-stability": "dev",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}
