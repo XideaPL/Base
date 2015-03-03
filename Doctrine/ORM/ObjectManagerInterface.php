@@ -22,10 +22,15 @@ interface ObjectManagerInterface
     /**
      * @return bool
      */
+    function isFlushMode();
+    
+    /**
+     * @return void
+     */
     function flush();
     
     /**
-     * @return bool
+     * @return void
      */
     function clear();
 }
