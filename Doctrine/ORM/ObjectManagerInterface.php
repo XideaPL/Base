@@ -15,9 +15,9 @@ namespace Xidea\Component\Base\Doctrine\ORM;
 interface ObjectManagerInterface
 {
     /**
-     * @param bool $on
+     * @param bool $flushMode
      */
-    function setFlushMode($on = true);
+    function setFlushMode($flushMode = true);
     
     /**
      * @return bool
