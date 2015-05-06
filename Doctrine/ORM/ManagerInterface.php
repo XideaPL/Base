@@ -12,7 +12,7 @@ namespace Xidea\Component\Base\Doctrine\ORM;
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface ObjectManagerInterface
+interface ManagerInterface
 {
     /**
      * @param bool $flushMode
