@@ -12,7 +12,7 @@ namespace Xidea\Component\Base\Loader;
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface ObjectLoaderInterface
+interface ModelLoaderInterface
 {
     /**
      * Returns an object by id.

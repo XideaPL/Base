@@ -12,7 +12,7 @@ namespace Xidea\Component\Base\Factory;
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface ObjectFactoryInterface
+interface ModelFactoryInterface
 {
     /**
      * @return object

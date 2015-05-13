@@ -12,7 +12,7 @@ namespace Xidea\Component\Base\Factory;
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-class ObjectFactory implements ObjectFactoryInterface
+class ModelFactory implements ModelFactoryInterface
 {
     /*
      * @var string
