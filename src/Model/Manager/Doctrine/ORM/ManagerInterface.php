@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Base\Doctrine\ORM\Manager;
+namespace Xidea\Base\Model\Manager\Doctrine\ORM;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface ModelManagerInterface
+interface ManagerInterface
 {
     /**
      * @param bool $flushMode

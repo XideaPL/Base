@@ -7,12 +7,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Base\Loader;
+namespace Xidea\Base\Model;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface ModelLoaderInterface
+interface LoaderInterface
 {
     /**
      * Returns an object by id.

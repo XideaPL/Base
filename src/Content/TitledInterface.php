@@ -7,15 +7,24 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Base\Factory;
+namespace Xidea\Base\Content;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-interface ModelFactoryInterface
+interface TitledInterface
 {
     /**
-     * @return object
+     * Gets the title.
+     * 
+     * @return string
      */
-    public function create();
+    function getTitle();
+    
+    /**
+     * Sets the title.
+     * 
+     * @param string
+     */
+    function setTitle($title);
 }

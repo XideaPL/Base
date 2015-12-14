@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Base\Util\String;
+namespace Xidea\Base\Util\String;
 
 /**
  * A helper class which creates slug from a string.

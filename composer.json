@@ -1,7 +1,7 @@
 {
     "name": "xideapl/base",
     "type": "library",
-    "description": "Xidea Base Component",
+    "description": "Xidea Base",
     "keywords": [],
     "homepage": "http://xidea.pl",
     "license": "MIT",
@@ -12,15 +12,13 @@
         }
     ],
     "require": {
-        "php": ">=5.3.3"
+        "php": ">=5.4.0"
     },
     "require-dev": {
     },
     "autoload": {
-        "psr-0": { "Xidea\\Component\\Base": "" }
+        "psr-4": { "Xidea\\Base\\": "src/" }
     },
-    "target-dir": "Xidea/Component/Base",
-    "minimum-stability": "dev",
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"

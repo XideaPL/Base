@@ -7,12 +7,14 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Component\Base\Factory;
+namespace Xidea\Base\Model\Factory;
+
+use Xidea\Base\Model\FactoryInterface;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-class ModelFactory implements ModelFactoryInterface
+class DefaultFactory implements FactoryInterface
 {
     /*
      * @var string

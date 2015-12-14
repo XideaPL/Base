@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Bundle\StuffBundle\StringUtil;
+namespace Xidea\Base\Util\String;
 
 /**
  * A helper class which filters a string.
