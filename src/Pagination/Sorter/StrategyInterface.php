@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Base\Pagination;
+namespace Xidea\Base\Pagination\Sorter;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
