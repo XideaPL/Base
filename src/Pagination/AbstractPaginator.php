@@ -94,7 +94,7 @@ class AbstractPaginator implements PaginatorInterface
         
         $request = $this->getRequest();
         $sorter = $this->getSorter();
-        $pagination = new Pagination($options);
+        $pagination = new DefaultPagination($options);
         $pagination->setRoute($request->getRoute());
         
         $sorting = $sorter->sort($target, isset($options['sorter']) ? $options['sorter'] : []);

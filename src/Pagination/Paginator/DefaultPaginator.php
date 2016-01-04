@@ -7,7 +7,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Xidea\Base\Pagination;
+namespace Xidea\Base\Pagination\Paginator;
 
 use Xidea\Base\Pagination\AbstractPaginator;
 

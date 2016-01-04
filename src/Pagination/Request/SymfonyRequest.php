@@ -44,6 +44,6 @@ class SymfonyRequest implements RequestInterface
      */
     public function getKeys($parameterName)
     {
-        return $this->requestStack->getCurrentRequest()->query->get($options['parameterName']);
+        return $this->requestStack->getCurrentRequest()->query->get($parameterName);
     }
 }

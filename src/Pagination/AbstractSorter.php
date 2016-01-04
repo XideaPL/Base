@@ -39,7 +39,7 @@ class AbstractSorter implements SorterInterface
      * 
      * @param RequestInterface $request
      */
-    public function __construct(RequestStack $request)
+    public function __construct(RequestInterface $request)
     {
         $this->request = $request;
     }
@@ -81,7 +81,7 @@ class AbstractSorter implements SorterInterface
 
         $options = array_merge($this->options, $options);
 
-        $sorting = new Sorting($options);
+        $sorting = new DefaultSorting($options);
         $sorting->setRoute($request->getRoute());
 
         $keys = $request->getKeys($options['parameterName']);

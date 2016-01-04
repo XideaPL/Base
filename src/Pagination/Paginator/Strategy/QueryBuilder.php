@@ -10,13 +10,13 @@
 namespace Xidea\Base\Pagination\Paginator\Strategy;
 
 use Xidea\Base\Pagination\Paginator\StrategyInterface;
-use Doctrine\ORM\Tools\Pagination\DefaultPaginator;
+use Doctrine\ORM\Tools\Pagination\Paginator;
 use Doctrine\ORM\QueryBuilder as DoctrineORMQueryBuilder;
 
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-class QueryBuilderStrategy implements StrategyInterface
+class QueryBuilder implements StrategyInterface
 {
     /*
      * @var int
@@ -40,7 +40,7 @@ class QueryBuilderStrategy implements StrategyInterface
             ->setFirstResult($offset)
             ->setMaxResults($limit)
         ;
-        $paginator = new DefaultPaginator($target);
+        $paginator = new Paginator($target);
         
         $this->total = $paginator->count();
 

@@ -9,6 +9,7 @@
 
 namespace Xidea\Base\Configuration;
 
+use Xidea\Base\ConfigurationInterface;
 use Xidea\Base\Pagination\AbstractPaginator;
 use Xidea\Base\Pagination\AbstractSorter;
 
