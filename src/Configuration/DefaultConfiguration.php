@@ -16,7 +16,7 @@ use Xidea\Base\Pagination\AbstractSorter;
 /**
  * @author Artur Pszczółka <a.pszczolka@xidea.pl>
  */
-class Configuration implements ConfigurationInterface
+class DefaultConfiguration implements ConfigurationInterface
 {
     /**
      * @var string
